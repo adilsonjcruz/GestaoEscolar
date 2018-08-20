@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GestaoEscolar
 {
-    public class Aluno
+    public class Aluno: Pessoa
     {
         private int id_aluno;
         private String nm_aluno;
