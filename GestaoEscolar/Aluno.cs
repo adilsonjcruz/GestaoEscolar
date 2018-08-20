@@ -12,11 +12,16 @@ namespace GestaoEscolar
         private String nm_aluno;
         private DateTime dt_nasc_aluno;
         private String end_aluno;
+        private String escola_aluno;
+        private String serie_aluno;
      
         public int ID_Aluno { get { return id_aluno; } set { id_aluno = value; } }
         public String NM_Aluno { get { return nm_aluno; } set { nm_aluno = value; } }
         public DateTime DT_Nas_Aluno { get { return dt_nasc_aluno; } set { dt_nasc_aluno = value; } }
         public String End_Aluno { get { return end_aluno; } set { end_aluno = value; } }
+        public String Escola_aluno { get { return escola_aluno; } set { escola_aluno = value; } }
+        public String Serie_aluno { get { return serie_aluno; } set { serie_aluno = value; } }
+
 
         public Aluno (int id_aluno, String nm_aluno, DateTime dt_nasc_aluno, String end_aluno){
 

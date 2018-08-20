@@ -38,11 +38,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.edtBairro = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(10, 185);
+            this.btnCancelar.Location = new System.Drawing.Point(11, 228);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(155, 36);
             this.btnCancelar.TabIndex = 0;
@@ -52,7 +54,7 @@
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(171, 185);
+            this.btnSalvar.Location = new System.Drawing.Point(172, 228);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(155, 36);
             this.btnSalvar.TabIndex = 0;
@@ -123,15 +125,33 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "Endereço:";
             // 
+            // edtBairro
+            // 
+            this.edtBairro.Location = new System.Drawing.Point(136, 175);
+            this.edtBairro.Name = "edtBairro";
+            this.edtBairro.Size = new System.Drawing.Size(273, 20);
+            this.edtBairro.TabIndex = 1;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(9, 175);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(43, 15);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Bairro:";
+            // 
             // frmCadastroAlunos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(575, 232);
+            this.ClientSize = new System.Drawing.Size(575, 271);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.edtBairro);
             this.Controls.Add(this.edtEndereco);
             this.Controls.Add(this.edtDtNasc);
             this.Controls.Add(this.edtNome);
@@ -160,6 +180,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox edtBairro;
+        private System.Windows.Forms.Label label5;
     }
 }
 

@@ -16,8 +16,8 @@ namespace GestaoEscolar
         private String bairro_pessoa;
         private String cidade_pessoa;
         private DateTime dt_nascimento;
-
-
+        private String escolaridade;
+        
         public int ID_Pessoa { get { return id_pessoa; } set { id_pessoa = value; } }
         public String Tipo_Pessoa { get { return tipo_pessoa; } set { tipo_pessoa = value; } }
         public String Cpf_Cnpj { get { return cpf_cnpj; } set { cpf_cnpj = value; } }
@@ -26,6 +26,9 @@ namespace GestaoEscolar
         public String Bairro_Pessoa { get { return bairro_pessoa; } set { bairro_pessoa = value; } }
         public String Cidade_Pessoa { get { return cidade_pessoa; } set { cidade_pessoa = value; } }
         public DateTime DT_Nascimento { get { return dt_nascimento; } set { dt_nascimento = value; } }
+        public String Escolaridade { get { return escolaridade; } set { escolaridade = value; } }
+        
+        public Pessoa() { }
 
     }
 }

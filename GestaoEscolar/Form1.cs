@@ -30,7 +30,7 @@ namespace GestaoEscolar
             Aluno aluno = new Aluno(1, "Adilson", Convert.ToDateTime("19/08/2019"), "Rua Antonio João, 1289");
             edtCodigo.Text = aluno.ID_Aluno.ToString();
             edtNome.Text = aluno.NM_Aluno;
-            edtDtNasc.Text = String.Format("{0:MM/dd/yyyy}", aluno.DT_Nas_Aluno);
+            edtDtNasc.Text = String.Format("{0:dd/MM/yyyy}", aluno.DT_Nas_Aluno);
             edtEndereco.Text = aluno.End_Aluno;
                 
         }
