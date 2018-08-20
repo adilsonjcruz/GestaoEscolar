@@ -1,0 +1,9 @@
+c:\users\adilson\documents\visual studio 2015\Projects\GestaoEscolar\GestaoEscolar\bin\Debug\GestaoEscolar.exe.config
+c:\users\adilson\documents\visual studio 2015\Projects\GestaoEscolar\GestaoEscolar\obj\Debug\GestaoEscolar.csprojResolveAssemblyReference.cache
+c:\users\adilson\documents\visual studio 2015\Projects\GestaoEscolar\GestaoEscolar\obj\Debug\GestaoEscolar.Properties.Resources.resources
+c:\users\adilson\documents\visual studio 2015\Projects\GestaoEscolar\GestaoEscolar\obj\Debug\GestaoEscolar.csproj.GenerateResource.Cache
+c:\users\adilson\documents\visual studio 2015\Projects\GestaoEscolar\GestaoEscolar\bin\Debug\GestaoEscolar.exe
+c:\users\adilson\documents\visual studio 2015\Projects\GestaoEscolar\GestaoEscolar\bin\Debug\GestaoEscolar.pdb
+c:\users\adilson\documents\visual studio 2015\Projects\GestaoEscolar\GestaoEscolar\obj\Debug\GestaoEscolar.exe
+c:\users\adilson\documents\visual studio 2015\Projects\GestaoEscolar\GestaoEscolar\obj\Debug\GestaoEscolar.pdb
+c:\users\adilson\documents\visual studio 2015\Projects\GestaoEscolar\GestaoEscolar\obj\Debug\GestaoEscolar.frmCadastroAlunos.resources
