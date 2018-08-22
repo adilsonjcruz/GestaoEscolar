@@ -8,12 +8,20 @@ namespace GestaoEscolar
 {
     public class Aluno: Pessoa
     {
-        private int id_aluno;
-        private String nm_aluno;
+        private int      id_aluno;
+        private String   nm_aluno;
         private DateTime dt_nasc_aluno;
-        private String end_aluno;
-        private String escola_aluno;
-        private String serie_aluno;
+        private String   end_aluno;
+		private String   uf_aluno;
+		private String   bairro_aluno;
+        private String   escola_aluno;
+        private String   serie_aluno;
+        private String   responsavel;
+		private String   rg_responsavel;
+		private String   cpf_responsavel;
+		private String   telefone_reponsavel;
+		private double   vl_renda_percapita;
+	
      
         public int ID_Aluno { get { return id_aluno; } set { id_aluno = value; } }
         public String NM_Aluno { get { return nm_aluno; } set { nm_aluno = value; } }
